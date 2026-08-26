@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220">
+  <rect width="720" height="220" fill="#ffffff"/>
+  <rect x="30" y="30" width="660" height="160" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="64" y="110" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#111827">OPEN SOURCE OCR LAB</text>
+  <text x="66" y="150" font-family="Arial, sans-serif" font-size="26" fill="#475569">Synthetic sample image for documentation</text>
+</svg>

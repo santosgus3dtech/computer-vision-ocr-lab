@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="470" viewBox="0 0 1120 470" role="img" aria-labelledby="title desc">
+  <title id="title">OCR preprocessing pipeline</title>
+  <desc id="desc">Pipeline diagram showing image input, grayscale conversion, resize, denoise, threshold and Tesseract OCR.</desc>
+  <rect width="1120" height="470" rx="18" fill="#f8fafc"/>
+  <defs>
+    <style>
+      .box{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+      .cv{fill:#eff6ff;stroke:#2563eb}
+      .ocr{fill:#f0fdf4;stroke:#16a34a}
+      .out{fill:#fff7ed;stroke:#ea580c}
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#111827}
+      .h{font-size:22px;font-weight:850}
+      .p{font-size:15px}
+      .s{font-size:12px;fill:#475569}
+      .arrow{stroke:#334155;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <text x="42" y="48" class="t h">Computer Vision OCR Lab</text>
+  <text x="42" y="76" class="t s">Small OpenCV preprocessing lab for Tesseract OCR experiments</text>
+  <rect x="54" y="150" width="160" height="120" rx="12" class="box"/>
+  <text x="86" y="192" class="t p">Image input</text>
+  <text x="86" y="218" class="t s">PNG/JPG scan</text>
+  <rect x="270" y="150" width="160" height="120" rx="12" class="box cv"/>
+  <text x="306" y="192" class="t p">Grayscale</text>
+  <text x="306" y="218" class="t s">BGR to gray</text>
+  <rect x="486" y="150" width="160" height="120" rx="12" class="box cv"/>
+  <text x="522" y="192" class="t p">Preprocess</text>
+  <text x="522" y="218" class="t s">Resize, denoise</text>
+  <text x="522" y="238" class="t s">Otsu threshold</text>
+  <rect x="702" y="150" width="160" height="120" rx="12" class="box ocr"/>
+  <text x="742" y="192" class="t p">Tesseract</text>
+  <text x="742" y="218" class="t s">eng or por</text>
+  <rect x="918" y="150" width="160" height="120" rx="12" class="box out"/>
+  <text x="960" y="192" class="t p">Text</text>
+  <text x="960" y="218" class="t s">Clean output</text>
+  <path d="M214 210 H270" class="arrow"/>
+  <path d="M430 210 H486" class="arrow"/>
+  <path d="M646 210 H702" class="arrow"/>
+  <path d="M862 210 H918" class="arrow"/>
+</svg>
