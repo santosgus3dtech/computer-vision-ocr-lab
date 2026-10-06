@@ -1,0 +1,8 @@
+{
+  "expected": "open source ocr lab synthetic benchmark document invoice id 2026 1042",
+  "actual": "open source ocr lab synthetic benchmark document invoice id 2026 1042",
+  "character_errors": 0,
+  "character_error_rate": 0.0,
+  "word_errors": 0,
+  "exact_match": true
+}

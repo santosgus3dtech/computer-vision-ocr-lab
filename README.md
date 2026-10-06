@@ -4,6 +4,8 @@ Small OpenCV + Tesseract OCR lab with a clean CLI, preprocessing helpers, tests 
 
 ![OCR pipeline](docs/images/ocr-pipeline.svg)
 
+![OCR benchmark with original image, preprocessing and real Tesseract metrics](docs/screenshots/ocr-benchmark.png)
+
 This repo is a portfolio-ready rebuild of an older OCR learning project. It keeps the useful computer-vision ideas while removing machine-specific paths and private sample files.
 
 ## What It Shows
@@ -15,6 +17,7 @@ This repo is a portfolio-ready rebuild of an older OCR learning project. It keep
 - CLI entrypoint.
 - Automated tests for preprocessing behavior.
 - GitHub Actions CI.
+- Character error rate and normalized exact-match metrics for inspectable OCR evaluation.
 
 ## Setup
 
@@ -53,6 +56,15 @@ The test suite does not require the Tesseract binary. It validates the OpenCV pr
 ```bash
 pytest
 ```
+
+With Tesseract installed, regenerate the public benchmark artifact:
+
+```bash
+python scripts/run_demo_benchmark.py
+```
+
+The script writes `docs/benchmark.json` and a side-by-side screenshot generated from the synthetic
+sample image. No scanned personal or business document is used.
 
 ## Portfolio Notes
 
