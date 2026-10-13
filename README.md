@@ -1,5 +1,7 @@
 # Computer Vision OCR Lab
 
+🇧🇷 [Leia este README em Português (Brasil)](README.pt-BR.md).
+
 Small OpenCV + Tesseract OCR lab with a clean CLI, preprocessing helpers, tests and safe sample assets.
 
 ![OCR pipeline](docs/images/ocr-pipeline.svg)
