@@ -5,3 +5,7 @@ __pycache__/
 .pytest_cache/
 outputs/
 *.tmp.*
+
+# Metadados locais do cofre documental
+/docs/.obsidian/
+/docs/.trash/
